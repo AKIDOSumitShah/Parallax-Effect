@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.parallax {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#section1 {
+    background-image: url('https://akidosumitshah.github.io/webdev/pic.jpg');
+}
+
+#section2 {
+    background-image: url('https://akidosumitshah.github.io/webdev/pic2.jpg');
+}
+
+#section3 {
+    background-image: url('https://akidosumitshah.github.io/webdev/images.jpg');
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    max-width: 800px;
+    margin: 0 auto;
+}
